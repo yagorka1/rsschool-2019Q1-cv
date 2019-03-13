@@ -1,0 +1,131 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    background-color: brown;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #b669ce;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#hello{
+    letter-spacing: 2px;
+}
+
+.main{
+    width: 100%;
+    height: 800px;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.egor{
+    display: flex;
+    flex-direction: row;
+    width: 1024px;
+    background-color: bisque;  
+}
+
+.main_inf{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: bisque;  
+}
+
+h1{
+    margin-left: 30px;
+    margin-bottom: -15px;
+    color:#47464f;
+}
+
+h2{
+    margin-left: 30px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color:#47464f;
+}
+
+.social-list{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;   
+    background-color: bisque;  
+}
+li{
+    margin-bottom: 10px;
+    margin-left: -15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.links{
+    color:#47464f;
+    font-style: normal;
+}
+
+.links:hover{
+    color: darkmagenta;
+    letter-spacing: 1px;
+}
+
+
+.icon-phone{
+    color: teal;
+}
+
+
+.icon-mail{
+    color:tomato;
+}
+
+.icon-github-circled{
+    color:black;
+}
+
+.icon-vkontakte{
+    color: steelblue;
+}
+
+.foto{
+    display: flex;
+    width: 40%;
+}
+
+.image{
+    width: 200x;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+
+
+.inf{
+    width: 1024px;
+    height: 450px;
+    background-color: azure;
+}
+
+.two{
+    width: 1024px;
+    height: 100px;
+    background-color: coral;
+}
+
+footer{
+    width: 100%;
+    height: 100px;;
+    background-color: aqua;
+}
